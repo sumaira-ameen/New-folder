@@ -1,0 +1,131 @@
+* {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold!important;
+    outline: none!important;
+    box-sizing: border-box!important;
+    text-decoration: none!important;
+    font-style: normal!important;
+}
+
+body {
+    background-color: #15182b!important;
+    color: #fff!important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 2em;
+    width: 100vw;
+    height: 100vh;
+    padding: 2em 1em!important;
+}
+
+/* row */
+
+.r {
+    display: flex;
+    flex-direction: row;
+    padding: 0em!important;
+    gap: 1em;
+    width: 100%;
+    height: fit-content;
+}
+
+.rr {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1em;
+    width: 100%;
+    height: fit-content;
+}
+
+/* column */
+
+.c {
+    display: flex;
+    flex-direction: column;
+    padding: 0em!important;
+    gap: 1em;
+    width: 100%;
+    height: fit-content;
+}
+
+.cr {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0.5em!important;
+    gap: 1em;
+    width: 100%;
+    height: fit-content;
+}
+
+/* button */
+
+.button {
+    color: #fff;
+    background-color: #15182b;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 0.5em!important;
+    border: none;
+    width: 100%;
+    /* margin-top: 1em; */
+}
+
+.button:active {
+    background-color: #313131;
+}
+
+.button:hover {
+    background-color: #06062a;
+}
+
+/* text align */
+
+.center {
+    width: 100%;
+    text-align: center;
+    margin: 0px!important;
+}
+
+.left {
+    width: 100%;
+    text-align: left;
+}
+
+.right {
+    width: 100%;
+    text-align: right;
+}
+
+/* input */
+
+.input {
+    width: 100%;
+    height: auto;
+    color: #060d3ef3;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 0.5em!important;
+}
+
+::placeholder {
+    color: #aaa;
+}
+
+.login-signup {
+    background-color: #1f273c;
+    width: 380px;
+    height: fit-content;
+    padding: 1.5em!important;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.login-signup a,
+.login-signup p {
+    color: #fff;
+    font-size: 0.8em;
+}
